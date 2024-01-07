@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	 <category>
+        <pattern>webdev</pattern>
+        <template>Web developers create and design websites. They ensure it's use across different browsers and devices.
+            <br></br> <br></br>
+            <link>
+                <text>Learn More About Web Developers</text>
+                <url>https://ca.indeed.com/hire/job-description/web-developer</url>
+            </link>
+            <button>
+                <text>Explore Other Careers</text>
+                <postback>careers</postback>
+            </button>
+             <button>
+                <text>Career Aptitude Test</text>
+                <postback>career pick</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>web developer answer</pattern>
+        <template>You should considering becoming a web developer.
+        <br></br><br></br>Web developers create and design websites. They ensure it's use across different browsers and devices.
+            <br></br> <br></br>
+            <link>
+                <text>Learn More About Web Developers</text>
+                <url>https://ca.indeed.com/hire/job-description/web-developer</url>
+            </link>
+            <button>
+                <text>Explore Other Careers</text>
+                <postback>careers</postback>
+            </button>
+             <button>
+                <text>Career Aptitude Test</text>
+                <postback>career pick</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

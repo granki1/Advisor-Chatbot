@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>database</pattern>
+        <template>Database administrators create and develop databases. They monitor data and ensure its safety.
+            <br></br> <br></br>
+            <link>
+                <text>Learn More About Database Administrators</text>
+                <url>https://www.indeed.com/hire/job-description/database-administrator</url>
+            </link>
+            <button>
+                <text>Explore Other Careers</text>
+                <postback>careers</postback>
+            </button>
+             <button>
+                <text>Career Aptitude Test</text>
+                <postback>career pick</postback>
+            </button>
+        </template>
+    </category>
+	<category>
+	    <pattern>database answer</pattern>
+	    <template>You should considering becoming a database administrator.
+        <br></br><br></br>
+        Database administrators create and develop databases. They monitor data and ensure its safety.
+            <br></br> <br></br>
+            <link>
+                <text>Learn More About Database Administrators</text>
+                <url>https://www.indeed.com/hire/job-description/database-administrator</url>
+            </link>
+            <button>
+                <text>Explore Other Careers</text>
+                <postback>careers</postback>
+            </button>
+             <button>
+                <text>Career Aptitude Test</text>
+                <postback>career pick</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

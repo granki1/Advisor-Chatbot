@@ -1,0 +1,32 @@
+<aiml version="2.0">
+    <category>
+        <pattern>help ^</pattern>
+        <template>For additional help, please schedule an appoint with your advisor.
+        <link>
+            <text>Schedule Here</text>
+            <url>www.scheduleanappointmentwithyouradvisor.com</url>
+        </link>
+        </template>
+    </category>
+    <category>
+        <pattern>support ^</pattern>
+        <template>Type "help" to schedule an appointment.</template>
+    </category>
+    <category>
+        <pattern>schedule ^</pattern>
+        <template>Type "help" to schedule an appointment.</template>
+    </category>
+    <category>
+        <pattern>appointment ^</pattern>
+        <template>Type "help" to schedule an appointment.</template>
+    </category>
+    
+    <category>
+        <pattern>no answer</pattern>
+        <template>It is recommended that you speak with an advisor. Please type "help" to schedule an appointment!</template>
+    </category>
+      <category>
+    <pattern>*</pattern>
+    <template>No response. Please type "begin" to start over, or type "help" to schedule an appointment.</template>
+  </category>
+</aiml>

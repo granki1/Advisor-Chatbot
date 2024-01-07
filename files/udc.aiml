@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <category>
+        <pattern>HI ^</pattern>
+        <template><srai>HELLO ^</srai></template>
+    </category>
+    <category>
+        <pattern>HEY ^</pattern>
+        <template><srai>HELLO ^</srai></template>
+    </category>
+    <category>
+        <pattern>HELLO ^</pattern>
+        <template>Welcome! You can start by typing "begin"</template>
+    </category>
+    
+    <category>
+        <pattern>BEGIN</pattern>
+        <template>I am a bot that has been created to help you find a career best suited for you. Let's get started. Select from the options below: 
+            <button>
+                <text>Learn About 5 Common Computer Science Careers</text>
+                <postback>careers</postback>
+            </button>
+            <button>
+                <text>Career Aptitude Test</text>
+                <postback>career pick</postback>
+            </button>    
+        </template>
+    </category>
+   
+   <category>
+        <pattern>careers</pattern>
+        <template>These are 5 common careers to look into with a computer science degree:
+            <button>
+                <text>Software Engineer</text>
+                <postback>software</postback>
+            </button>
+            <button>
+                <text>Web Developer</text>
+                <postback>webdev</postback>
+            </button>
+            <button>
+                <text>Database Administrator</text>
+                <postback>database</postback>
+            </button>
+            <button>
+                <text>Network Administrator</text>
+                <postback>network</postback>
+            </button>
+            <button>
+                <text>Cybersecurity Analyst</text>
+                <postback>cybersecurity</postback>
+            </button>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>career pick</pattern>
+        <template>I will ask some questions to provide suggestions on career paths to consider.
+        <br></br><br></br>
+        Do you prefer designing or programming?
+            <button>
+                <text>Designing</text>
+                <postback>webdevquestion</postback>
+            </button>
+            <button>
+                <text>Programming</text>
+                <postback>programming question</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>webdevquestion</pattern>
+        <template> Are you good with using languages like HTML, CSS, and Javascript?  
+            <button>
+                <text>Yes</text>
+                <postback>webdevquestion 2</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>cyber question</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>programming question</pattern>
+        <template> Do you enjoy working in a development environment?
+            <button>
+                <text>Yes</text>
+                <postback>programming question 2</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>database question</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>webdevquestion 2</pattern>
+        <template> Do you enjoy working with web applications?
+            <button>
+                <text>Yes</text>
+                <postback>web developer answer</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>network answer</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>cyber question</pattern>
+        <template> Do you enjoy working with security systems?
+            <button>
+                <text>Yes</text>
+                <postback>cybersecurity answer</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>no answer</postback>
+            </button>
+        </template>
+    </category>
+        <category>
+        <pattern>programming question 2</pattern>
+        <template> Do you enjoy designing, developing, and testing software systems?
+            <button>
+                <text>Yes</text>
+                <postback>software answer</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>cyber question</postback>
+            </button>
+        </template>
+    </category>
+            <category>
+        <pattern>database question</pattern>
+        <template>Do you enjoy using databases, either SQL or NoSQL?
+            <button>
+                <text>Yes</text>
+                <postback>database answer</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>programming question 2</postback>
+            </button>
+        </template>
+    </category>
+
+</aiml>

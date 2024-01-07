@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	 <category>
+        <pattern>software</pattern>
+        <template>Software engineers design and create programs to meet user needs. They also test these programs to ensure it's functionalities. 
+            <br></br> <br></br>
+            <link>
+                <text>Learn More About Software Developers</text>
+                <url>https://www.indeed.com/hire/job-description/software-engineer</url>
+            </link>
+            <button>
+                <text>Explore Other Careers</text>
+                <postback>careers</postback>
+            </button>
+             <button>
+                <text>Career Aptitude Test</text>
+                <postback>career pick</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>software answer</pattern>
+        <template>You should considering becoming a software engineer.
+        <br></br><br></br>
+        Software engineers design and create programs to meet user needs. They also test these programs to ensure it's functionalities. 
+            <br></br> <br></br>
+            <link>
+                <text>Learn More About Software Developers</text>
+                <url>https://www.indeed.com/hire/job-description/software-engineer</url>
+            </link>
+            <button>
+                <text>Explore Other Careers</text>
+                <postback>careers</postback>
+            </button>
+             <button>
+                <text>Career Aptitude Test</text>
+                <postback>career pick</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>cybersecurity</pattern>
+        <template>Cybersecurity analysts play a vital role. They ensure the protection of data, networks, and devices by installing protection software, using data encryption, and monitoring network trafic. In addition to this, they make security recommendations and test their systems to find vulnerabilities.
+            <br></br> <br></br>
+            <link>
+                <text>Learn More About Cybersecurity Analysts</text>
+                <url>https://www.indeed.com/hire/job-description/information-security-analyst</url>
+            </link>
+            <button>
+                <text>Explore Other Careers</text>
+                <postback>careers</postback>
+            </button>
+             <button>
+                <text>Career Aptitude Test</text>
+                <postback>career pick</postback>
+            </button>
+        </template>
+    </category>
+	<category>
+        <pattern>cybersecurity answer</pattern>
+        <template>You should considering becoming a cybersecurity analyst.
+        <br></br><br></br>
+            Cybersecurity analysts play a vital role. They ensure the protection of data, networks, and devices by installing protection software, using data encryption, and monitoring network trafic. In addition to this, they make security recommendations and test their systems to find vulnerabilities.
+            <br></br> <br></br>
+            <link>
+                <text>Learn More About Cybersecurity Analysts</text>
+                <url>https://www.indeed.com/hire/job-description/information-security-analyst</url>
+            </link>
+            <button>
+                <text>Explore Other Careers</text>
+                <postback>careers</postback>
+            </button>
+             <button>
+                <text>Career Aptitude Test</text>
+                <postback>career pick</postback>
+            </button>
+        </template>
+    </category>
+</aiml>
